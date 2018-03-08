@@ -40,8 +40,7 @@ nohup python src/api.py
 ## Configuration
 
 
-start your  project on the port you have mentioned in [`config.py`]In below code you have to mention a mode which you have to use as following
-prd,staging,test,dev,local
+start your  project on the port you have mentioned in [`config.py`]In below code you have to mention a mode which you have to use in this  prd,staging,test,dev,local
 
 (https://github.com/gate6/poolagency/blob/master/src/config.py).
 ```shell
