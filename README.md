@@ -39,7 +39,8 @@ nohup python src/api.py
 
 ## Configuration
 
-###Backend
+### Backend
+
 start your  project on the port you have mentioned in [`config.py`]
 (https://github.com/gate6/poolagency/blob/master/src/config.py).
 ```shell
@@ -56,7 +57,8 @@ In above code you have to mention a mode which you have to use as following
 5.local
 ```
 
-###Frontend 
+### Frontend 
+
 In frontend we use angular & to start you have mentioned in [`config.py`]
 (https://github.com/gate6/poolagency/blob/master/src/static/admin/scripts/config.js).
 ```shell
