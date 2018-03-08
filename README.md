@@ -86,11 +86,8 @@ First clone this repository or download code on machine where you would like to 
 ### Before we get started buildling with flask we need to setup our development environment. 
 
 1. Install Python
-2. Install virtualenv
-3. Install virtualenvwrapper or virtualenvwrapper-win
-4. Create a virtual environment 
-5. Install flask 
-6. Run our flask project
+2. Install flask 
+3. Run our flask project
  
 
 ### 1. Install Python
@@ -101,63 +98,9 @@ First clone this repository or download code on machine where you would like to 
 
 [Linux](https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-linux-python.html)
 
-### 2. Install virtualenv
-
-```
-$ pip install virtualenv
-```
-
-### 3. Install virtualenvwrapper or virtualenvwrapper-win
-
-virtualenv wrappers make it easy to manage multiple environments and can make iterating on project easy. 
 
 
-[Windows](http://timmyreilly.azurewebsites.net/python-flask-windows-development-environment-setup/)
-
-``` 
-C:\ pip install virtualenvwrapper-win  
-```
-
-
-[Mac](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
-
-```
-$ pip install virtualenvwrapper 
-$ export WORKON_HOME=~/Envs 
-$ source /usr/local/bin/virtualenvwrapper.sh 
-```
-
-### 4. Create a virtual environment
-
-```
-$ mkvirtualenv venv
-```
-deavtivate environment
-```
-$ deavtivate 
-```
-workon that environment
-```
-$workon venv
-```
-
-EXTRA: link directory to virtualenv 
-```
-$ setprojectdir .
-
-$ deactivate
-
-$ workon helloworld
-```
-
-Before moving forward -  Make sure you're virtualenv is activated. Should look like this: 
-
-```
-(venv) path\to\something\like\your\project$ 
-```
-
-
-### 5. Install flask
+### 2. Install flask
 
 Now we need [flask](http://flask.pocoo.org/) for our first website!
 
@@ -166,7 +109,7 @@ $ pip install flask
 ```
 
 
-### 6. Run our flask project
+### 3. Run our flask project
 ```
 $ python hello.py
  * Running on http://localhost:5000/
