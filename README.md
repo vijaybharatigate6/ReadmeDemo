@@ -44,9 +44,9 @@ nohup python src/api.py
 ```
 
 Above command will start your  project on the port you have mentioned in [`config.py`]
-(https://github.com/gate6/poolagency/blob/master/src/config.py) which is 8000 as per above example.
-So if you have setup project on your local machine API will be accessed via url [`http://localhost:8000`] 
-(http://localhost:8000).
+(https://github.com/gate6/poolagency/blob/master/src/config.py) which is 5000 as per above example.
+So if you have setup project on your local machine API will be accessed via url [`http://localhost:5000`] 
+(http://localhost:5000).
 
 
 
