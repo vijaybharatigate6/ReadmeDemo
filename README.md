@@ -109,17 +109,8 @@ $ pip install flask
 ```
 
 
-### 3. Run our flask project
-```
-$ python hello.py
- * Running on http://localhost:5000/
-```
-
-
 2)Flask-MySQLdb
 ----------
-
-
 
 Flask-MySQLdb provides MySQL connection for Flask.
 
@@ -142,23 +133,7 @@ from flask_mysqldb import MySQL
 
 app = Flask(__name__)
 mysql = MySQL(app)
-
-
-@app.route('/')
-def users():
-    cur = mysql.connection.cursor()
-    cur.execute('''SELECT user, host FROM mysql.user''')
-    rv = cur.fetchall()
-    return str(rv)
-
-if __name__ == '__main__':
-    app.run(debug=True)
 ```
-
-### Why
-
-Why would you want to use this extension versus just using MySQLdb by itself? The only reason is that the extension was made using Flask's best pratices in relation to resources that need caching on the [app context](http://flask.pocoo.org/docs/0.12/appcontext/#context-usage). What that means is that the extension will manage creating and teardown the connection to MySQL for you while with if you were just using MySQLdb you would have to do it yourself.
-
 
 ### Resources
 
