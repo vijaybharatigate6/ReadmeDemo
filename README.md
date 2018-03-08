@@ -33,12 +33,14 @@ Once all the settings of project are configured you are ready to run your projec
 
 To start project in debug mode :
 
-```python src/api.py
+```shell
+python src/api.py
 ```
 
 To run project with nohup in forever mode:
 
-```nohup python src/api.py
+```shell
+nohup python src/api.py
 ```
 
 Above command will start your node API project on the port you have mentioned in [`config.py`]
