@@ -50,7 +50,7 @@ if not MODE or MODE is None:
 ```
 
 
-In frontend we use angular & to start on the port you have mentioned in [`config.py`] .In below code you have to mention a mode which you have to use in that as prd,staging,test,dev,localhost
+In frontend we use angular & to start on the port you have mentioned in [`config.js`] .In below code you have to mention a mode which you have to use in that as prd,staging,test,dev,localhost
 (https://github.com/gate6/poolagency/blob/master/src/static/admin/scripts/config.js).
 ```shell
 MODE = 'localhost'
