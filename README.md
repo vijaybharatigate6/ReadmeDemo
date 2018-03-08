@@ -40,7 +40,7 @@ nohup python src/api.py
 ## Configuration
 
 
-Above command will start your  project on the port you have mentioned in [`config.py`]
+start your  project on the port you have mentioned in [`config.py`]
 (https://github.com/gate6/poolagency/blob/master/src/config.py).
 ```shell
 if not MODE or MODE is None:
