@@ -19,16 +19,7 @@ At Pool Agency, we’re committed to the highest quality of service and reliabil
   ```
 
 3. Run the development server:
-  ```
-  $ python src/api.py
-  ```
-
-6. Navigate to [http://localhost:5000](http://localhost:5000)
-
-
-### Run Project
-
-Once all the settings of project are configured you are ready to run your project. To start api project just execute below command in api root folder
+  Once all the settings of project are configured you are ready to run your project. To start api project just execute below command in api root folder
 
 
 To start project in debug mode :
@@ -42,6 +33,13 @@ To run project with nohup in forever mode:
 ```shell
 nohup python src/api.py
 ```
+
+
+6. Navigate to [https://localhost:5000](http://localhost:5000)
+
+
+### Run Project
+
 
 Above command will start your  project on the port you have mentioned in [`config.py`]
 (https://github.com/gate6/poolagency/blob/master/src/config.py) which is 5000 as per above example.
