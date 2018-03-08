@@ -1,7 +1,7 @@
 # poolagency
 ![poolagency logo](http://dashboard.tritontracking.com:5000/static/admin/resources/images/triton-logo.png)
 
-In Pool Agency Project, we’re using Raspberry Pi  device that coonect with mobile device application with bluetooth.
+In Pool Agency Project, we’re using Raspberry Pi  device that conect with mobile device application with bluetooth.
 when process will be start mobile device application  sync that data and send to server. server get that data . in server side algorithm check now which process is going on brushing,vaccuming or skimming.
 
 
