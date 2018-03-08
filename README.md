@@ -20,11 +20,7 @@ First clone this repository or download code on machine where you would like to 
  
 #### Install Python
 
-[Windows](http://timmyreilly.azurewebsites.net/python-flask-windows-development-environment-setup/)
-
-[Mac](http://docs.python-guide.org/en/latest/starting/install/osx/)
-
-[Linux](https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-linux-python.html)
+[Windows](http://timmyreilly.azurewebsites.net/python-flask-windows-development-environment-setup/),[Mac](http://docs.python-guide.org/en/latest/starting/install/osx/),[Linux](https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-linux-python.html)
 
 #### Install requirements.txt 
  ```
