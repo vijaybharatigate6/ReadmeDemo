@@ -48,6 +48,9 @@ Above command will start your  project on the port you have mentioned in [`confi
 So if you have setup project on your local machine API will be accessed via url [`http://localhost:5000`] 
 (http://localhost:5000).
 
+if not MODE or MODE is None:
+    print('app is running on default mode')
+    MODE = 'local'
 
 
 Installation
