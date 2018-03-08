@@ -29,11 +29,12 @@ Flask-MySQLdb provides MySQL connection for Flask.
 ##### Quickstart
 
 First, install Flask-MySQLdb:
+Flask-MySQLdb is compatible with and tested on Python 2.7, 3.4, 3.5 and 3.6.we use here 2.7 in project.
     
     $ pip install flask-mysqldb
     
 
-Flask-MySQLdb is compatible with and tested on Python 2.7, 3.4, 3.5 and 3.6.we use here 2.7 in project.
+
 
 
 ##### Resources
