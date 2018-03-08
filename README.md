@@ -59,7 +59,7 @@ In above code you have to mention a mode which you have to use as following
 
 ### Frontend 
 
-In frontend we use angular & to start you have mentioned in [`config.py`]
+In frontend we use angular & to start on the port you have mentioned in [`config.py`]
 (https://github.com/gate6/poolagency/blob/master/src/static/admin/scripts/config.js).
 ```shell
 MODE = 'localhost'
