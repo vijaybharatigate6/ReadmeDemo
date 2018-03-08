@@ -4,8 +4,8 @@
 
 At Pool Agency, we’re committed to the highest quality of service and reliability. Our modern approach to pool care includes the latest tracking technology, a GPS-tracked fleet of trucks, before and after photos of every job and the best mobile dispatch software in the industry. We carefully monitor each job to offer you instant feedback and keep quality high. From weekly maintenance and repair to remodeling, our one-stop shop offers services to both residential and commercial locations.
 
-Installation
-================
+
+### Quick Start
 
 1. Clone the repo
   ```
@@ -26,22 +26,8 @@ Installation
 6. Navigate to [http://localhost:5000](http://localhost:5000)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Installation
+================
 
 First clone this repository or download code on machine where you would like to setup poolagency API.
 
