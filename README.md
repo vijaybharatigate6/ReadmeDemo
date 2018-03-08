@@ -87,7 +87,6 @@ First clone this repository or download code on machine where you would like to 
 
 1. Install Python
 2. Install flask 
-3. Run our flask project
  
 
 ### 1. Install Python
