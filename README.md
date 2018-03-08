@@ -20,8 +20,6 @@ At Pool Agency, we’re committed to the highest quality of service and reliabil
 
 ### 3. Run the development server:
 
-  Once all the settings of project are configured you are ready to run your project. To start api project just execute below command in api root folder
-
 
 To start project in debug mode :
 
