@@ -23,7 +23,6 @@ First clone this repository or download code on machine where you would like to 
 [Windows](http://timmyreilly.azurewebsites.net/python-flask-windows-development-environment-setup/),[Mac](http://docs.python-guide.org/en/latest/starting/install/osx/),[Linux](https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-linux-python.html)
 
 #### Install Flask-MySQLdb
-----------
 
 Flask-MySQLdb provides MySQL connection for Flask.
 
