@@ -34,7 +34,8 @@ nohup python src/api.py
 ```
 
 
-4. Navigate to [https://localhost:5000](http://localhost:5000)
+### 4. Navigate to 
+[https://localhost:5000](http://localhost:5000)
 
 
 ### Run Project
