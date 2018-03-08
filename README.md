@@ -149,3 +149,9 @@ Resources
 
 - [Documentation](http://flask-mysqldb.readthedocs.org/en/latest/)
 - [PyPI](https://pypi.python.org/pypi/Flask-MySQLdb)
+
+
+Support
+================
+If you face any problem or issue in configuration or usage of poolagency  project as per the instruction documented above, Please feel free to communicate with poolagency Development Team.
+
