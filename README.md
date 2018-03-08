@@ -40,20 +40,17 @@ nohup python src/api.py
 ## Configuration
 
 
-start your  project on the port you have mentioned in [`config.py`]
-(https://github.com/gate6/poolagency/blob/master/src/config.py).
-```shell
-if not MODE or MODE is None:
-   print('app is running on default mode')
-   MODE = 'local'
-```
-In above code you have to mention a mode which you have to use as following
-```shell
+start your  project on the port you have mentioned in [`config.py`]In below code you have to mention a mode which you have to use as following
 1.prd
 2.staging
 3.test
 4.dev
 5.local
+(https://github.com/gate6/poolagency/blob/master/src/config.py).
+```shell
+if not MODE or MODE is None:
+   print('app is running on default mode')
+   MODE = 'local'
 ```
 
 
