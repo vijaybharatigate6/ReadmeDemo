@@ -14,10 +14,22 @@ At Pool Agency, we’re committed to the highest quality of service and reliabil
   ```
 
 ### 2. Install the dependencies:
-  ```
+
+First clone this repository or download code on machine where you would like to setup poolagency API.       
+
+ 
+#### Install Python
+
+[Windows](http://timmyreilly.azurewebsites.net/python-flask-windows-development-environment-setup/)
+
+[Mac](http://docs.python-guide.org/en/latest/starting/install/osx/)
+
+[Linux](https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-linux-python.html)
+
+#### Install requirements.txt 
+ ```
   $ pip install -r requirements.txt
   ```
-
 ### 3. Run the development server:
 
 
