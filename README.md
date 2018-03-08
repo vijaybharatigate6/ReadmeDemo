@@ -18,11 +18,11 @@ At Pool Agency, we’re committed to the highest quality of service and reliabil
 First clone this repository or download code on machine where you would like to setup poolagency API.       
 
  
-#### Install Python
+#### -Install Python
 
 [Windows](http://timmyreilly.azurewebsites.net/python-flask-windows-development-environment-setup/),[Mac](http://docs.python-guide.org/en/latest/starting/install/osx/),[Linux](https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-linux-python.html)
 
-#### Install Flask-MySQLdb
+#### -Install Flask-MySQLdb
 
 Flask-MySQLdb provides MySQL connection for Flask.
 
@@ -44,7 +44,7 @@ with and tested on Python 2.7, 3.4, 3.5 and 3.6.we use here 2.7 in project.
 - [PyPI](https://pypi.python.org/pypi/Flask-MySQLdb)
 
 
-#### Install requirements.txt 
+#### -Install requirements.txt 
  ```
   $ pip install -r requirements.txt
   ```
