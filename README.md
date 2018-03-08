@@ -69,7 +69,6 @@ First clone this repository or download code on machine where you would like to 
 ### Before we get started buildling with flask we need to setup our development environment. 
 
 1. Install Python
-2. Install flask 
  
 
 ### 1. Install Python
@@ -80,15 +79,6 @@ First clone this repository or download code on machine where you would like to 
 
 [Linux](https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-linux-python.html)
 
-
-
-### 2. Install flask
-
-Now we need [flask](http://flask.pocoo.org/) for our first website!
-
-```
-$ pip install flask
-```
 
 
 2)Flask-MySQLdb
@@ -107,15 +97,6 @@ Flask-MySQLdb depends, and will install for you, recent versions of Flask
 (0.10.1 or later) and [mysqlclient](https://github.com/PyMySQL/mysqlclient-python). Flask-MySQLdb is compatible
 with and tested on Python 2.7, 3.4, 3.5 and 3.6.we use here 2.7 in project.
 
-Next, add a ``MySQL`` instance to your code:
-
-```python
-from flask import Flask
-from flask_mysqldb import MySQL
-
-app = Flask(__name__)
-mysql = MySQL(app)
-```
 
 ### Resources
 
