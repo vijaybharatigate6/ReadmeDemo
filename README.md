@@ -48,12 +48,13 @@ if not MODE or MODE is None:
    MODE = 'local'
 ```
 In above code you have to mention a mode whoch you have to use as following
+```shell
 1.prd
 2.staging
 3.test
 4.dev
 5.local
-
+```
 Installation
 ================
 
