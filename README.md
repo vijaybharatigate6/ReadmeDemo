@@ -26,6 +26,24 @@ At Pool Agency, we’re committed to the highest quality of service and reliabil
 6. Navigate to [http://localhost:5000](http://localhost:5000)
 
 
+### Run Project
+
+Once all the settings of project are configured you are ready to run your project. To start api project just execute below command in api root folder
+
+
+To start project in debug mode :
+
+```python src/api.py
+```
+
+To run project with nohup in forever mode:
+
+``nohup python src/api.py
+```
+
+Above command will start your node API project on the port you have mentioned in [`config.py`] (https://github.com/gate6/poolagency/blob/master/src/config.py) which is 8000 as per above example.
+So if you have setup project on your local machine API will be accessed via url [`http://localhost:8000`] (http://localhost:8000).
+
 Installation
 ================
 
