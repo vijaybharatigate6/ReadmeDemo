@@ -5,20 +5,21 @@
 At Pool Agency, we’re committed to the highest quality of service and reliability. Our modern approach to pool care includes the latest tracking technology, a GPS-tracked fleet of trucks, before and after photos of every job and the best mobile dispatch software in the industry. We carefully monitor each job to offer you instant feedback and keep quality high. From weekly maintenance and repair to remodeling, our one-stop shop offers services to both residential and commercial locations.
 
 
-### Quick Start
+## Quick Start
 
-1. Clone the repo
+### 1. Clone the repo
   ```
   $ git clone https://github.com/gate6/poolagency.git
   $ cd poolagency
   ```
 
-2. Install the dependencies:
+### 2. Install the dependencies:
   ```
   $ pip install -r requirements.txt
   ```
 
-3. Run the development server:
+### 3. Run the development server:
+
   Once all the settings of project are configured you are ready to run your project. To start api project just execute below command in api root folder
 
 
@@ -35,7 +36,7 @@ nohup python src/api.py
 ```
 
 
-6. Navigate to [https://localhost:5000](http://localhost:5000)
+4. Navigate to [https://localhost:5000](http://localhost:5000)
 
 
 ### Run Project
