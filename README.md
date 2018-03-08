@@ -41,14 +41,18 @@ nohup python src/api.py
 
 
 Above command will start your  project on the port you have mentioned in [`config.py`]
-(https://github.com/gate6/poolagency/blob/master/src/config.py) which is 5000 as per above example.
-So if you have setup project on your local machine API will be accessed via url [`http://localhost:5000`] 
-(http://localhost:5000).
+(https://github.com/gate6/poolagency/blob/master/src/config.py).
 ```shell
 if not MODE or MODE is None:
    print('app is running on default mode')
    MODE = 'local'
 ```
+In above code you have to mention a mode whoch you have to use as following
+1.prd
+2.staging
+3.test
+4.dev
+5.local
 
 Installation
 ================
