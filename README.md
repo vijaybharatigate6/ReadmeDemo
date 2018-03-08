@@ -6,6 +6,43 @@ At Pool Agency, we’re committed to the highest quality of service and reliabil
 
 Installation
 ================
+
+1. Clone the repo
+  ```
+  $ git clone https://github.com/gate6/poolagency.git
+  $ cd poolagency
+  ```
+
+2. Install the dependencies:
+  ```
+  $ pip install -r requirements.txt
+  ```
+
+3. Run the development server:
+  ```
+  $ python src/api.py
+  ```
+
+6. Navigate to [http://localhost:5000](http://localhost:5000)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 First clone this repository or download code on machine where you would like to setup poolagency API.
 
 1)Flask
