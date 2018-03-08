@@ -1,8 +1,8 @@
 # poolagency
 ![poolagency logo](http://dashboard.tritontracking.com:5000/static/admin/resources/images/triton-logo.png)
 
-
-At Pool Agency, we’re committed to the highest quality of service and reliability. Our modern approach to pool care includes the latest tracking technology, a GPS-tracked fleet of trucks, before and after photos of every job and the best mobile dispatch software in the industry. We carefully monitor each job to offer you instant feedback and keep quality high. From weekly maintenance and repair to remodeling, our one-stop shop offers services to both residential and commercial locations.
+In Pool Agency Project, we’re using Raspberry Pi  device that coonect with mobile device application with bluetooth.
+when process will be start mobile device application  sync that data and send to server. server get that data . in server side algorithm check now which process is going on brushing,vaccuming or skimming.
 
 
 ## Quick Start
