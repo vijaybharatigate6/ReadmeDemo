@@ -64,13 +64,6 @@ Installation
 
 First clone this repository or download code on machine where you would like to setup poolagency API.
 
-1)Flask
-----------
-### Before we get started buildling with flask we need to setup our development environment. 
-
-1. Install Python
- 
-
 ### 1. Install Python
 
 [Windows](http://timmyreilly.azurewebsites.net/python-flask-windows-development-environment-setup/)
@@ -81,13 +74,12 @@ First clone this repository or download code on machine where you would like to 
 
 
 
-2)Flask-MySQLdb
+### 2. Flask-MySQLdb
 ----------
 
 Flask-MySQLdb provides MySQL connection for Flask.
 
 ### Quickstart
-
 
 First, install Flask-MySQLdb:
     
