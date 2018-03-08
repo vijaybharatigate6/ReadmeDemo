@@ -47,11 +47,11 @@ Above command will start your  project on the port you have mentioned in [`confi
 (https://github.com/gate6/poolagency/blob/master/src/config.py) which is 5000 as per above example.
 So if you have setup project on your local machine API will be accessed via url [`http://localhost:5000`] 
 (http://localhost:5000).
-
+```shell
 if not MODE or MODE is None:
-    print('app is running on default mode')
-    MODE = 'local'
-
+   print('app is running on default mode')
+   MODE = 'local'
+```
 
 Installation
 ================
