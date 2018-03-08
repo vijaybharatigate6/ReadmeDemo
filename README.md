@@ -107,8 +107,8 @@ $ python hello.py
 
 Flask-MySQLdb provides MySQL connection for Flask.
 
-Quickstart
-----------
+### Quickstart
+
 
 First, install Flask-MySQLdb:
     
@@ -139,13 +139,13 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
 
-Why
----
+### Why
+
 Why would you want to use this extension versus just using MySQLdb by itself? The only reason is that the extension was made using Flask's best pratices in relation to resources that need caching on the [app context](http://flask.pocoo.org/docs/0.12/appcontext/#context-usage). What that means is that the extension will manage creating and teardown the connection to MySQL for you while with if you were just using MySQLdb you would have to do it yourself.
 
 
-Resources
----------
+### Resources
+
 
 - [Documentation](http://flask-mysqldb.readthedocs.org/en/latest/)
 - [PyPI](https://pypi.python.org/pypi/Flask-MySQLdb)
