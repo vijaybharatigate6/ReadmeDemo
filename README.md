@@ -37,7 +37,7 @@ nohup python src/api.py
 ### 4. Navigate to [https://localhost:5000](http://localhost:5000)
 
 
-### Run Project
+## Configuration
 
 
 Above command will start your  project on the port you have mentioned in [`config.py`]
