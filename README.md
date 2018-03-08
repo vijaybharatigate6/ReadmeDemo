@@ -39,7 +39,7 @@ nohup python src/api.py
 
 ## Configuration
 
-
+###Backend
 start your  project on the port you have mentioned in [`config.py`]
 (https://github.com/gate6/poolagency/blob/master/src/config.py).
 ```shell
@@ -47,7 +47,7 @@ if not MODE or MODE is None:
    print('app is running on default mode')
    MODE = 'local'
 ```
-In above code you have to mention a mode whoch you have to use as following
+In above code you have to mention a mode which you have to use as following
 ```shell
 1.prd
 2.staging
@@ -55,6 +55,25 @@ In above code you have to mention a mode whoch you have to use as following
 4.dev
 5.local
 ```
+
+###Frontend 
+In frontend we use angular & to start you have mentioned in [`config.py`]
+(https://github.com/gate6/poolagency/blob/master/src/static/admin/scripts/config.js).
+```shell
+MODE = 'localhost'
+currEnvironment: MODE
+   
+```
+In above code you have to mention a mode which you have to use as following
+```shell
+1.dev
+2.test
+3.staging
+4.prd
+5.localhost
+```
+
+
 Installation
 ================
 
