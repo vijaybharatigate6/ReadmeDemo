@@ -144,11 +144,15 @@ like shown below:
         },
 ```
 
-Kepp in mind all the keys shown above in enviorment config are required and used through out the project. Once you are done with above setting, open [`/app.js`](https://github.com/gate6/elastik/blob/master/api/app.js)
-and define your current working enviorment to 'local' as you have define all the settings under 'local node'. Replace line 26 with below code
 
-```
-GLOBAL .currentServerEnv = config.setCurrentEnviorment("local");
+start your  project on the port you have mentioned in [`config.py`] .In below code you have to mention a mode which you have to use in that as prd,staging,test,dev,local
+
+(https://github.com/gate6/poolagency/blob/master/src/config.py).
+```shell
+if not MODE or MODE is None:
+   print('app is running on default mode')
+   MODE = 'local'
+```ig.setCurrentEnviorment("local");
 ```
 
 
