@@ -200,16 +200,16 @@ api/
 │   ├── library/                   # include custom libraries files such as mysql
 |   ├── model/                     # include database entities files
 │   ├── logs/                      # include logs files
-|   └── swagger/                   # api documentation
-|   └── quickbooks/                # to generate the invoic
-|   └── static/                    # public folder
-|   └── api.py
-|   └── config.py
-|   └── route.py
-|   └── views.py
-|
+|   ├── swagger/                   # api documentation
+|   ├── quickbooks/                # to generate the invoic
+|   ├── static/                    # public folder
+|   ├── api.py
+|   ├── config.py
+|   ├── route.py
+|   ├── views.py
+| 
 ├── logs/                          # include logs files
-|
+| 
 ├── ssl/                           # certificate
 |
 ├── tests/                         # testcases
