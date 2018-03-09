@@ -9,17 +9,7 @@ Package is developed to provides RESTful webservices for creation, publishing & 
 
 Below are the steps which one needs to follow to setup API project:
 
-
-## Quick Start
-
-### 1. Clone the repo
-  ```
-  $ git clone https://github.com/gate6/poolagency.git
-  $ cd poolagency
-  ```
-
-### 2. Install the dependencies:
-
+## Installation
 First clone this repository or download code on machine where you would like to setup poolagency API.       
 
  
@@ -53,6 +43,20 @@ Flask-MySQLdb is compatible with and tested on Python 2.7, 3.4, 3.5 and 3.6.we u
  ```
   $ pip install -r requirements.txt
   ```
+
+Above command will install all the dependencies of project.
+
+## Quick Start
+
+### 1. Clone the repo
+  ```
+  $ git clone https://github.com/gate6/poolagency.git
+  $ cd poolagency
+  ```
+
+### 2. Install the dependencies:
+
+
 ### 3. Run the development server:
 
 
