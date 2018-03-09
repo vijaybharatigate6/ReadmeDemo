@@ -132,8 +132,12 @@ if not MODE or MODE is None:
    print('app is running on default mode')
    MODE = 'local'
 ```
+### Note
+If you get issue realted to MySqldb module while you run project please execute below command with root access. mysql Driver is needed to run project.
 
-
+```shell
+sudo apt-get install python-mysqldb (edited)
+```
 ## Run Project
 
 Once all the settings of project are configured you are ready to run your project. To start api project just execute below command in api root folder
