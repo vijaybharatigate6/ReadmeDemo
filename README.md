@@ -152,7 +152,6 @@ start your  project on the port you have mentioned in [`config.py`] .In below co
 if not MODE or MODE is None:
    print('app is running on default mode')
    MODE = 'local'
-```ig.setCurrentEnviorment("local");
 ```
 
 
