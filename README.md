@@ -55,7 +55,7 @@ Above command will install all the dependencies of project.
 ### Configuration
 
 Now You need to set project configuration settings such as database details, port on which server run, Payment gateway credentials etc. To do so open file 
-[`config.py`] (https://github.com/gate6/poolagency/blob/master/src/config.py). It contains enviorment wise bifurcation of configuration settings,you setup project on prd,staging,test,dev,local . suppose if you are setup project on local than provide all the detailes in localhost node
+[`config.py`] (https://github.com/gate6/poolagency/blob/master/src/config.py). It contains enviorment wise bifurcation of configuration settings,you setup project on prd,staging,test,dev,local . suppose if you are setup project on local than provide all the detailes in local node
 like shown below:
 
 ```shell
