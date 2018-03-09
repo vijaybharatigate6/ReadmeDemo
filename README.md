@@ -194,14 +194,14 @@ currEnvironment: MODE
 
 api/
 ├── src/
-│   ├── controllers/ (include  main api functions)
-│   ├── helper/      (include commonly used helper functions)
-│   ├── library/     (include custom libraries files such as mysql)
-|   ├── model/       (include database entities files)
-│   ├── logs/        (include logs files)
-|   └── swagger/     (api documentation)
-|   └── quickbooks/  (to generate the invoic)
-|   └── static/      (public folder)
+│   ├── controllers/         #(include  main api functions)
+│   ├── helper/              #(include commonly used helper functions)
+│   ├── library/             #(include custom libraries files such as mysql)
+|   ├── model/               #(include database entities files)
+│   ├── logs/                #(include logs files)
+|   └── swagger/             #(api documentation)
+|   └── quickbooks/          #(to generate the invoic)
+|   └── static/              #(public folder)
 |   └── api.py
 |   └── config.py
 |   └── route.py
@@ -214,7 +214,14 @@ api/
 ├── tests/(testcases)
 
 
-
+ .
+   ├── build                   # Compiled files (alternatively `dist`)
+   ├── docs                    # Documentation files (alternatively `doc`)
+   ├── src                     # Source files (alternatively `lib` or `app`)
+   ├── test                    # Automated tests (alternatively `spec` or `tests`)
+   ├── tools                   # Tools and utilities
+   ├── LICENSE
+   └── README.md
 ## Support
 
 If you face any problem or issue in configuration or usage of poolagency  project as per the instruction documented above, Please feel free to communicate with poolagency Development Team.
