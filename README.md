@@ -1,8 +1,8 @@
 # poolagency
 ![poolagency logo](http://dashboard.tritontracking.com:5000/static/admin/resources/images/triton-logo.png)
 
-# Elastik REST API
-Package is developed to provides RESTful webservices for creation, publishing & management of Elastik project requirements.
+# poolagency REST API
+Package is developed to provides RESTful webservices for creation, publishing & management of poolagency project requirements.
 .Defination for various API can be found under [`route.py`]
 
 (https://github.com/gate6/poolagency/blob/master/api/src/route.py).
