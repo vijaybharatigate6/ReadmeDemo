@@ -52,7 +52,7 @@ Flask-MySQLdb is compatible with and tested on Python 2.7, 3.4, 3.5 and 3.6.we u
 Above command will install all the dependencies of project.
 
 
-### Configuration
+## Configuration
 
 Now You need to set project configuration settings such as database details, port on which server run, Payment gateway credentials etc. To do so open file 
 [`config.py`] (https://github.com/gate6/poolagency/blob/master/src/config.py). It contains enviorment wise bifurcation of configuration settings.In below code you have to mention a mode which you have to use or setup project on prd,staging,test,dev,local
@@ -64,14 +64,9 @@ if not MODE or MODE is None:
 ```
 
 
-## Quick Start
+## Run Project
 
-
-### 2. Install the dependencies:
-
-
-### 3. Run the development server:
-
+Once all the settings of project are configured you are ready to run your project. To start api project just execute below command in api root folder
 
 To start project in debug mode :
 
@@ -84,6 +79,22 @@ To run project with nohup in forever mode:
 ```shell
 nohup python src/api.py
 ```
+
+
+Above command will start your node API project on the port you have mentioned in [`config.py`] (https://github.com/gate6/poolagency/blob/master/src/config.py) .
+So if you have setup project on your local machine API will be accessed via url [`http://localhost:8080`] (http://localhost:8080).
+
+
+
+## Quick Start
+
+
+### 2. Install the dependencies:
+
+
+### 3. Run the development server:
+
+
 
 
 ### 4. Navigate to [https://localhost:5000](http://localhost:5000)
