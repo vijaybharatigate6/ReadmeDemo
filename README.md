@@ -191,6 +191,7 @@ currEnvironment: MODE
 ```
 
 ## Folder structure
+
 api/
 ├── src/
 │   ├── controllers/ (include  main api functions)
