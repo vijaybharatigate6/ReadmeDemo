@@ -12,6 +12,11 @@ Below are the steps which one needs to follow to setup API project:
 ## Installation
 First clone this repository or download code on machine where you would like to setup poolagency API.       
 
+#### - Clone the repo
+  ```
+  $ git clone https://github.com/gate6/poolagency.git
+  $ cd poolagency
+  ```
  
 #### - Install Python
 
@@ -48,11 +53,6 @@ Above command will install all the dependencies of project.
 
 ## Quick Start
 
-### 1. Clone the repo
-  ```
-  $ git clone https://github.com/gate6/poolagency.git
-  $ cd poolagency
-  ```
 
 ### 2. Install the dependencies:
 
