@@ -215,14 +215,14 @@ api/
 ├── tests/(testcases)
 
 
-   .
-   ├── build                   # Compiled files (alternatively `dist`)
-   ├── docs                    # Documentation files (alternatively `doc`)
-   ├── src                     # Source files (alternatively `lib` or `app`)
-   ├── test                    # Automated tests (alternatively `spec` or `tests`)
-   ├── tools                   # Tools and utilities
-   ├── LICENSE
-   └── README.md
+.
+├── build                   # Compiled files (alternatively `dist`)
+├── docs                    # Documentation files (alternatively `doc`)
+├── src                     # Source files (alternatively `lib` or `app`)
+├── test                    # Automated tests (alternatively `spec` or `tests`)
+├── tools                   # Tools and utilities
+├── LICENSE
+└── README.md
 ## Support
 
 If you face any problem or issue in configuration or usage of poolagency  project as per the instruction documented above, Please feel free to communicate with poolagency Development Team.
