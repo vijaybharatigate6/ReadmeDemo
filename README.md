@@ -22,28 +22,6 @@ First clone this repository or download code on machine where you would like to 
 
 [Windows](http://timmyreilly.azurewebsites.net/python-flask-windows-development-environment-setup/),[Mac](http://docs.python-guide.org/en/latest/starting/install/osx/),[Linux](https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-linux-python.html)
 
-#### - Install Flask-MySQLdb
-
-Flask-MySQLdb provides MySQL connection for Flask.
-
-##### Quickstart
-
-First, install Flask-MySQLdb:
-
-    
-    $ pip install flask-mysqldb
-    
-Flask-MySQLdb is compatible with and tested on Python 2.7, 3.4, 3.5 and 3.6.we use here 2.7 in project.
-
-
-
-##### Resources
-
-
-- [Documentation](http://flask-mysqldb.readthedocs.org/en/latest/)
-- [PyPI](https://pypi.python.org/pypi/Flask-MySQLdb)
-
-
 #### - Install requirements.txt 
  ```
   $ pip install -r requirements.txt
