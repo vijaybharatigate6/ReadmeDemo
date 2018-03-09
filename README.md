@@ -156,17 +156,6 @@ So if you have setup project on your local machine API will be accessed via url 
 
 
 
-## Quick Start
-
-
-
-
-
-
-
-
-### 4. Navigate to [https://localhost:5000](http://localhost:5000)
-
 
 
 
