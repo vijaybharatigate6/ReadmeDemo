@@ -133,7 +133,8 @@ if not MODE or MODE is None:
    MODE = 'local'
 ```
 ### Note
-If you get issue realted to MySqldb module while you run project please execute below command with root access. mysql Driver is needed to run project.
+If you get issue realted to MySqldb module while you run project please execute below command with root access. mysql Driver is needed to run project.MySQLdb is compatible with and tested on Python 2.7, 3.4, 3.5 and 3.6.we use here 2.7 in project.
+
 
 ```shell
 sudo apt-get install python-mysqldb 
