@@ -1,11 +1,13 @@
 # poolagency
 ![poolagency logo](http://dashboard.tritontracking.com:5000/static/admin/resources/images/triton-logo.png)
 
-In Pool Agency Project, we’re using Raspberry Pi  device that conect with mobile device application with wire bluetooth.     
-when process will be start mobile device application  sync that data and send to server. server get that data & in server    side algorithm check now which process is going on brushing,vaccuming or skimming.and make a infodata that how much time
-the one process take.Defination for various API can be found under [`route.py`]
+# Elastik REST API
+Package is developed to provides RESTful webservices for creation, publishing & management of Elastik project requirements.
+.Defination for various API can be found under [`route.py`]
 
 (https://github.com/gate6/poolagency/blob/master/api/src/route.py).
+
+Below are the steps which one needs to follow to setup API project:
 
 
 ## Quick Start
