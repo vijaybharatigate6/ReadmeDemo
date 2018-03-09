@@ -171,22 +171,31 @@ So if you have setup project on your local machine API will be accessed via url 
 
 
 
-## Configuration
+## Web Configuration
 
 
-start your  project on the port you have mentioned in [`config.py`] .In below code you have to mention a mode which you have to use in that as prd,staging,test,dev,local
 
-(https://github.com/gate6/poolagency/blob/master/src/config.py).
-```shell
-if not MODE or MODE is None:
-   print('app is running on default mode')
-   MODE = 'local'
-```
-
-
-In frontend we use angular & to start on the port you have mentioned in [`config.js`] .In below code you have to mention a mode which you have to use in that as prd,staging,test,dev,localhost
+In web we use angular & to start on the port you have mentioned in [`config.js`] .In below code you have to mention a mode which you have to use in that as prd,staging,test,dev,localhost
 (https://github.com/gate6/poolagency/blob/master/src/static/admin/scripts/config.js).
+
 ```shell
+ localhost: {
+    text: "Localhost",
+    server: "https://localhost:8080",
+    socketServer: "https://localhost:8080",
+    serverKeyName: "",
+    serverKey: "",
+    serverTokenName: "",
+    serverToken: "",
+    authorizeApiLoginId: "7FfaP2r5V",
+    authorizeClientKey:
+      "99kzR6YCX74Tkg2j3UuRzmV93y8Jd5682U6Vg8w6wU3YJm5vUrNEs8a2HqnhJFhK",
+    googleAnalyticKey: "UA-97703495-1",
+    quickBookClientId: "Q0QMcPwI91vTUmCwfSjhLLarPABDtJOhA03MFsCTVSlwboq2AS",
+    quickBookSecret: "SHQ6OPbBVBzEAwZCeZEdNXcnZILsUBvjbkyFvT6c",
+    redirectUrl: "/admin/quickbook-auth"
+  },
+
 MODE = 'localhost'
 currEnvironment: MODE
    
