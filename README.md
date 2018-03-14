@@ -1,6 +1,5 @@
 # poolagency
-### Test-Driven Development in Python
-
+![poolagency logo](http://dashboard.tritontracking.com:5000/static/admin/resources/images/triton-logo.png)
 # poolagency REST API
 Package is developed to provides RESTful webservices for creation, publishing & management of poolagency project requirements.
 .Defination for various API can be found under [`route.py`]
